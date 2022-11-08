@@ -4,15 +4,16 @@ import React from 'react'
 function Footer() {
     return (
         <section className='bg-[#E4DED5]'>
-            <div className='flex flex-col justify-center items-center py-10 font-fraunces px-10'>
+            <div className='flex flex-col justify-center items-center py-10 font-fraunces px-10 md:justify-between'>
                 <img src='footerLogo.svg' alt='footer logo' className='h-20 w-20' />
-                <ul className='flex flex-col justify-center items-center text-[#B55730] text-lg font-bold gap-6 mt-5'>
+                <ul className='flex flex-col justify-center items-center text-[#B55730] text-lg font-bold gap-6 mt-5 md:flex-row'>
                     <li>About</li>
                     <li>Services</li>
                     <li>Work</li>
                     <li>Blog</li>
                     <li>Contact</li>
                 </ul>
+                
                 <div className='flex flex-col justify-center items-center gap-4'>
                     <div className='flex justify-center items-center gap-2 mt-10'>
                         <img src="footerIcon.webp" alt="icon" className="h-5 w-5 " />
@@ -40,7 +41,8 @@ function Footer() {
                         <div className='bg-[#223240] p-2 rounded-sm'>
                             <img src="message.svg" alt="icon" className="h-[1rem] w-[1rem] " />
                         </div>
-                    </div>
+                        </div>
+               
                 </div>
                 <hr class="my-7 w-[22rem] h-1 bg-backgroundColor rounded border "></hr>
                 <div className='flex justify-center items-center gap-4'>
