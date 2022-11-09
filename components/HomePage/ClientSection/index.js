@@ -4,11 +4,11 @@ import Image from "next/image";
 function ClientSection() {
     return (
         <section className="bg-[#E4DED5] font-fraunces">
-            <div className="flex flex-col justify-center items-center px-6 py-20">
+            <div className="flex flex-col justify-center items-center px-6 py-20 lg:px-60">
                 <h1 className="text-[#223240] text-base font-semibold md:text-6xl">
                     ❤️ from our clients
                 </h1>
-                <hr class="my-8 w-10 h-1 bg-backgroundColor rounded border-0 "></hr>
+                <hr className="my-8 w-10 h-1 bg-backgroundColor rounded border-0 "></hr>
                 <div className="grid grid-cols-1 justify-center items-center mt-10 gap-6 md:grid-cols-2 mx-auto">
                     <div className="bg-[#223240] shadow-2xl shadow-[#223240] bg-fluffyBackground bg-fluffysize text-right flex flex-col gap-4 py-20 pr-10 pl-16 rounded-tl-8/10 rounded-tr-8/10 rounded-bl-1/1 md:mt-auto">
                         <Image
