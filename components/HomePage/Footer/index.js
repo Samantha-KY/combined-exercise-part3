@@ -4,8 +4,8 @@ import React from 'react'
 function Footer() {
     return (
         <section className='bg-[#E4DED5]'>
-            <div className='flex flex-col justify-center items-center py-10 font-fraunces px-10 md:justify-between'>
-                <div className='flex flex-col justify-center items-center md:flex-row md:gap-20 md:px-6'>
+            <div className='flex flex-col justify-center items-center py-10 font-fraunces px-10 md:justify-between lg:px-6'>
+                <div className='flex flex-col justify-center items-center md:flex-row md:gap-20 md:px-6 lg:justify-between'>
                     <div className='flex flex-col justify-center items-center md:flex-row'>
                         <img src='footerLogo.svg' alt='footer logo' className='h-20 w-20' />
                         <ul className='flex flex-col justify-center items-center text-[#B55730] text-lg font-bold gap-6 mt-5 md:flex-row'>

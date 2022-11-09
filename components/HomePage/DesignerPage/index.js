@@ -7,6 +7,7 @@ function DesignerPage() {
       <video
         autoPlay={true}
         loop={true}
+        muted={true}
         className="absolute inset-0 w-full h-full object-cover"
       >
         <source src="bgVideo.mp4" />
