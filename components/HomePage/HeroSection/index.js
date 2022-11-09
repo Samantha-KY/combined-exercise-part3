@@ -20,7 +20,7 @@ function HeroSection() {
             organizations need. Are<br className="md:hidden" /> you<br className="md:block hidden" /> strained because you<br className="md:hidden" /> should<br className="md:block hidden" /> have a design<br className="md:hidden " />
             team but you<br className="hidden md:block" /> don{"'"}t?
           </p>
-          <Button title="SEE HOW WE WORK & WHAT WE CAN DO" className="rounded-md bg-backgroundButton text-buttonText font-fraunces w-[20rem] h-[5rem] flex justify-center items-center whitespace-pre-line p-[3rem] md:w-[34rem] bg-fluffyBackground bg-fluffysize" />
+          <Button title="SEE HOW WE WORK & WHAT WE CAN DO" className="rounded-md bg-backgroundButton text-buttonText font-fraunces w-[20rem] h-[5rem] flex justify-center items-center whitespace-pre-line p-[3rem] md:w-[34rem] bg-fluffyBackground bg-fluffysize hover:bg-backgroundColor duration-500" />
         </div>
         <div className="">
           <img src="heroImage.png" alt="hero" className="h-80 w-80 md:h-[35rem] md:w-[35rem] lg:mt-[7rem] lg:h-[44rem] lg:w-[42rem] " />

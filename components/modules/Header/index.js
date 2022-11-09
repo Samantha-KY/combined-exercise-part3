@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Link from "next/link";
 import React from "react";
 
 function Header() {
@@ -12,11 +13,11 @@ function Header() {
           className="h-20 w-5 font-merriweather font-bold md:h-40 md:w-10 lg:hidden"
         />
         <ul className="lg:flex justify-between gap-4 font-fraunces text-stone-300 hidden md:hidden text-3xl font-bold">
-          <li>Get Cozy</li>
-          <li>What we do</li>
-          <li>Our work</li>
-          <li>The blog</li>
-          <li>Say hi</li>
+          <Link href="/getCozy" className="hover:text-backgroundColor hover:-translate-y-2 transition-all duration-300 ease-in-out">Get Cozy</Link>
+          <Link href='/about' className="hover:text-backgroundColor hover:-translate-y-2 transition-all duration-300 ease-in-out">What we do</Link>
+          <Link href="/work" className="hover:text-backgroundColor hover:-translate-y-2 transition-all duration-300 ease-in-out">Our work</Link>
+          <Link href="/blog" className="hover:text-backgroundColor hover:-translate-y-2 transition-all duration-300 ease-in-out">The blog</Link>
+          <Link href="/greeting" className="hover:text-backgroundColor hover:-translate-y-2 transition-all duration-300 ease-in-out">Say hi</Link>
         </ul>
       </div>
     </section>

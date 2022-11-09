@@ -9,7 +9,12 @@ function ClientSection() {
                     ❤️ from our clients
                 </h1>
                 <hr className="my-8 w-10 h-1 bg-backgroundColor rounded border-0 "></hr>
-                <div className="grid grid-cols-1 justify-center items-center mt-10 gap-6 md:grid-cols-2 mx-auto">
+                <div className="grid grid-cols-1 mt-10 gap-6 md:grid-cols-2 md:grid-rows-2 mx-auto relative">
+                    <div className="bg-[#E4DED5] h-20 w-20 rounded-full absolute m-auto md:flex justify-center items-center inset-0 hidden ">
+                        <div className="absolute -inset-4 rounded-full border-2 border-[#E4DED5]" />
+                        <div className="absolute -inset-8 rounded-full border-2 border-[#E4DED5] opacity-70" />
+                        <Image src="/messageIcon.svg" alt="message" width={32} height={32} />
+                    </div>
                     <div className="bg-[#223240] shadow-2xl shadow-[#223240] bg-fluffyBackground bg-fluffysize text-right flex flex-col gap-4 py-20 pr-10 pl-16 rounded-tl-8/10 rounded-tr-8/10 rounded-bl-1/1 md:mt-auto">
                         <Image
                             src="/imageclient1.webp"
