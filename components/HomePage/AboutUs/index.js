@@ -7,16 +7,16 @@ function AboutUs() {
         <section className="bg-regularBackground bg-regularSize">
             <div className="flex flex-col justify-center gap-10 px-10 py-20 md:px-20 lg:flex-row">
                 <div className="flex flex-col gap-10">
-                    <div className="flex justify-between md:text-3xl font-bold text-[#223240]">🌴🐻🇺🇸</div>
-                    <h1 className="font-fraunces font-bold text-7xl text-[#223240] leading-normal ">
+                    <div className="flex justify-between md:text-3xl font-bold text-slate-800">🌴🐻🇺🇸</div>
+                    <h1 className="font-fraunces font-bold text-7xl text-slate-800 leading-normal ">
                         Get Cozy
                     </h1>
-                    <h2 className="text-[#C47D57] text-4xl font-fraunces font-bold leading-normal">
+                    <h2 className="text-primarytext text-4xl font-fraunces font-bold leading-normal">
                         Design & digital marketing
                         <br />
                         in San Diego, California
                     </h2>
-                    <p className="text-[#223240] font-fraunces text-xl leading-normal font-semibold md:text-2xl">
+                    <p className="text-slate-800 font-fraunces text-xl leading-normal font-semibold md:text-2xl">
                         We’re an award-winning
                         <br className="md:hidden" /> design shop based in<br className="hidden md:block" /> South
                         <br className="md:hidden" /> Park, San Diego. We
@@ -31,7 +31,7 @@ function AboutUs() {
                         <br className="md:hidden" /> beings who interact<br className="hidden md:block" /> with
                         <br className="md:hidden" /> them. 🤯
                     </p>
-                    <p className="text-[#223240] font-fraunces font-semibold text-xl leading-normal md:text-2xl">
+                    <p className="text-slate-800 font-fraunces font-semibold text-xl leading-normal md:text-2xl">
                         No epic quests for<br className="md:hidden" /> inspiration. Just pragmatic<br /> collaboration and
                         efficient<br className="md:hidden" /> results from big-agency<br /> graduates with decades of<br className="md:hidden" />
                         experience.

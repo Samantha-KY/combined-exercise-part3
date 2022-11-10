@@ -3,19 +3,19 @@ import Image from "next/image";
 
 function ClientSection() {
     return (
-        <section className="bg-[#E4DED5] font-fraunces">
+        <section className="bg-stone-200 font-fraunces">
             <div className="flex flex-col justify-center items-center px-6 py-20 lg:px-60">
-                <h1 className="text-[#223240] text-base font-semibold md:text-6xl">
+                <h1 className="text-slate-800 text-base font-semibold md:text-6xl">
                     ❤️ from our clients
                 </h1>
                 <hr className="my-8 w-10 h-1 bg-backgroundColor rounded border-0 "></hr>
                 <div className="grid grid-cols-1 mt-10 gap-6 md:grid-cols-2 md:grid-rows-2 mx-auto relative">
-                    <div className="bg-[#E4DED5] h-20 w-20 rounded-full absolute m-auto md:flex justify-center items-center inset-0 hidden ">
-                        <div className="absolute -inset-4 rounded-full border-2 border-[#E4DED5]" />
-                        <div className="absolute -inset-8 rounded-full border-2 border-[#E4DED5] opacity-70" />
+                    <div className="bg-stone-200 h-20 w-20 rounded-full absolute m-auto md:flex justify-center items-center inset-0 hidden ">
+                        <div className="absolute -inset-4 rounded-full border-2 border-stone-200" />
+                        <div className="absolute -inset-8 rounded-full border-2 border-stone-200 opacity-70" />
                         <Image src="/messageIcon.svg" alt="message" width={32} height={32} />
                     </div>
-                    <div className="bg-[#223240] shadow-2xl shadow-[#223240] bg-fluffyBackground bg-fluffysize text-right flex flex-col gap-4 py-20 pr-10 pl-16 rounded-tl-8/10 rounded-tr-8/10 rounded-bl-1/1 md:mt-auto">
+                    <div className="bg-slate-800 shadow-2xl shadow-slate-800 bg-fluffyBackground bg-fluffysize text-right flex flex-col gap-4 py-20 pr-10 pl-16 rounded-tl-8/10 rounded-tr-8/10 rounded-bl-1/1 md:mt-auto">
                         <Image
                             src="/imageclient1.webp"
                             alt="image 1"
@@ -33,10 +33,10 @@ function ClientSection() {
                             designers in Aquent/Vitamin T{"'"}s global network.
                         </p>
                         <div>
-                            <p className="text-stone-300/90 text-[12px] font-black uppercase tracking-[4px] mt-1">
+                            <p className="text-stone-300/90 text-[0.75rem] font-black uppercase tracking-[0.25rem] mt-1">
                                 Susie Pollasky
                             </p>
-                            <small className="text-stone-400 opacity-[70%] font-bold text-[12px]">
+                            <small className="text-stone-400 opacity-7/10 font-bold text-[0.75rem]">
                                 Now: Leadership Recruiting @ Product Design
                                 <br />
                                 at Facebook{" "}
@@ -44,7 +44,7 @@ function ClientSection() {
                         </div>
                     </div>
 
-                    <div className="bg-[#2E464D] shadow-2xl shadow-[#2E464D] bg-fluffyBackground bg-fluffysize text-left flex flex-col gap-4 py-20 pr-10 pl-16 rounded-tl-1/1 rounded-tr-1/1 rounded-br-5/10">
+                    <div className="bg-slate-700 shadow-2xl shadow-slate-700 bg-fluffyBackground bg-fluffysize text-left flex flex-col gap-4 py-20 pr-10 pl-16 rounded-tl-1/1 rounded-tr-1/1 rounded-br-5/10">
                         <Image
                             src="/imageclient2.webp"
                             alt="image 1"
@@ -66,16 +66,16 @@ function ClientSection() {
                             skyrocket. We’re really pleased.
                         </p>
                         <div>
-                            <p className="text-stone-300/90 text-[12px] font-black uppercase tracking-[4px] mt-1">
+                            <p className="text-stone-300/90 text-[0.75rem] font-black uppercase tracking-[0.25rem] mt-1">
                                 Martin Spritzer
                             </p>
-                            <small className="text-stone-400 opacity-[70%] font-bold text-[12px]">
+                            <small className="text-stone-400 opacity-[70%] font-bold text-[0.75rem]">
                                 General Manager @ iQuoteXpress
                             </small>
                         </div>
                     </div>
 
-                    <div className="bg-[#C47D57] shadow-2xl shadow-[#C47D57] bg-fluffyBackground bg-fluffysize text-right flex flex-col gap-4 py-20 pr-10 pl-16 rounded-tl-1/1 rounded-br-8/10 rounded-bl-8/10 md:mb-auto">
+                    <div className="bg-pbackground shadow-2xl shadow-pbackground bg-fluffyBackground bg-fluffysize text-right flex flex-col gap-4 py-20 pr-10 pl-16 rounded-tl-1/1 rounded-br-8/10 rounded-bl-8/10 md:mb-auto">
                         <Image
                             src="/imageclient3.webp"
                             alt="image 1"
@@ -91,10 +91,10 @@ function ClientSection() {
                             the results. They pretty much nailed it.
                         </p>
                         <div>
-                            <p className="text-stone-300/90 text-[12px] font-black uppercase tracking-[4px] mt-1">
+                            <p className="text-stone-300/90 text-[0.75rem] font-black uppercase tracking-[0.25rem] mt-1">
                                 Eric weiss
                             </p>
-                            <small className="text-stone-300/90 opacity-[70%] font-bold text-[12px]">
+                            <small className="text-stone-300/90 opacity-[70%] font-bold text-[0.75rem]">
                                 Founder @ Full Cycle Product Development
                             </small>
                         </div>
@@ -117,10 +117,10 @@ function ClientSection() {
                             deliverables are very well-organized and professional.
                         </p>
                         <div>
-                            <p className="text-stone-300/90 text-[12px] font-black uppercase tracking-[4px] mt-1">
+                            <p className="text-stone-300/90 text-[0.75rem] font-black uppercase tracking-[0.25rem] mt-1">
                                 Michael Weisfeld
                             </p>
-                            <small className="text-stone-300/90 opacity-[70%] font-bold text-[12px]">
+                            <small className="text-stone-300/90 opacity-[70%] font-bold text-[0.75rem]">
                                 Director of Digital Marketing @ National Funding
                             </small>
                         </div>

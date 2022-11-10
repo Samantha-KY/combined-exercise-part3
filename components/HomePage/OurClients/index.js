@@ -3,9 +3,9 @@ import React from 'react'
 
 function OurClients() {
     return (
-        <section className='bg-[#223240] font-fraunces'>
+        <section className='bg-slate-800 font-fraunces'>
             <div className='flex flex-col justify-center items-center py-10 '>
-                <h1 className='font-medium text-2xl text-[#AC917C] italic text-center md:text-3xl'>More than 150 happy<br className='md:hidden'/> clients</h1>
+                <h1 className='font-medium text-2xl text-secondarytext italic text-center md:text-3xl'>More than 150 happy<br className='md:hidden' /> clients</h1>
                 <div className='flex flex-col justify-center items-center gap-8 py-10 md:flex-row md:px-20'>
                     <img src="ourClient1.svg" alt="icon1" className="h-10 w-[6rem] md:w-[5rem]" />
                     <img src="ourClient2.svg" alt="icon2" className="h-10 w-[7rem] md:w-[5rem]" />

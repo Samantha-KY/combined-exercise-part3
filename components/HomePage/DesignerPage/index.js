@@ -21,14 +21,14 @@ function DesignerPage() {
           Psst… <br /> are you a<br className="md:hidden"/> designer?{" "}
         </p>
         <p className="text-sm text-stone-300 px-10 -mt-[1rem] font-semibold md:text-lg lg:hidden">
-          Consider joining our<span className="text-[#D90F54]"> San Diego Design<br/> Designers</span> group. More than 700<br className="md:hidden"/>
+          Consider joining our<span className="text-rose-600"> San Diego Design<br/> Designers</span> group. More than 700<br className="md:hidden"/>
           people, we meet<br className="hidden md:block"/> online via Slack and in<br className="md:hidden"/> person at social events<br className="hidden md:block"/> around
           the city.<br className="md:hidden"/> It’s a great opportunity to share<br className="hidden md:block"/> ideas,<br className="md:hidden"/> get inspired, find
           support, and celebrate<br/> great design.
         </p>
 
         <p className="text-sm text-stone-300 px-10 -mt-[1rem] font-semibold md:text-lg hidden lg:block md:hidden">
-          Consider joining our<span className="text-[#D90F54]"> San Diego Design Designers</span> group. More than 700
+          Consider joining our<span className="text-rose-600"> San Diego Design Designers</span> group. More than 700
           people,<br/> we meet online via Slack and in person at social events around
           the city. It’s a great opportunity to share ideas, get inspired, find
           support, and celebrate great design.
